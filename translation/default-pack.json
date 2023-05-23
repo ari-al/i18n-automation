@@ -1,0 +1,13 @@
+{
+  "default-language": "en",
+  "default-translations": {
+    "kr": {
+      "kr": "한국어",
+      "en": "영어"
+    },
+    "en": {
+      "ko": "Korean",
+      "en": "English"
+    }
+  }
+}

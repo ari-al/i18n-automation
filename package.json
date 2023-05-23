@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "parse:i18n": "i18next --config translation/i18next-parser.config.js"
   },
   "dependencies": {
     "accept-language": "^3.0.18",
