@@ -8,12 +8,17 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "parse:i18n": "i18next --config translation/i18next-parser.config.js"
+    "parse:i18n": "i18next --config translation/i18next-parser.config.js",
+    "upload:i18n": "yarn parse:i18n && node translation/upload.js",
+    "download:i18n": "node translation/download.js",
+    "serve": "yarn upload:i18n && yarn download:i18n"
   },
   "dependencies": {
     "accept-language": "^3.0.18",
+    "google-spreadsheet": "^3.3.0",
     "i18next": "^22.5.0",
     "i18next-resources-to-backend": "^1.1.4",
+    "mkdirp-classic": "^0.5.3",
     "next": "^13.4.3",
     "next-i18next": "^13.2.2",
     "react": "^18.2.0",

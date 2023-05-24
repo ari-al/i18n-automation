@@ -1,3 +1,4 @@
 {
-  "pageTitle": "Next.js 국제화 자동화"
+  "pageTitle": "Next.js 국제화 자동화",
+  "pageDescription": "국제화 리소스를 자동 생성하는 모듈"
 }

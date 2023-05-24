@@ -11,3 +11,6 @@ public
 yarn-error.log
 npm-debug.log
 app/i18n/locales/
+.credentials
+.env*
+locales
